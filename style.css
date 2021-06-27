@@ -1,0 +1,176 @@
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  height:2000px;
+  font-family: 'Overpass Mono', monospace;
+}
+header{
+ width:100%;
+ background: pink;
+ height: 80px;
+ margin:0 auto;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ color:white;
+}
+.first{
+  height: 500px;
+  display: flex;
+  flex-wrap:wrap;
+  margin-top:30px;
+  flex-wrap:wrap;
+}
+.left{
+  height: 500px;
+  flex-grow:1;
+  display: flex;
+  flex-wrap:wrap;
+  max-width:50%;
+  justify-content:center;
+  background-image: url("https://i.pinimg.com/564x/01/86/f2/0186f207421032ee3d08f9da7e20fbfa.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.title{
+  height: 100px;
+  margin-top: 50px;
+  color:white;
+}
+p{
+  margin:0;
+  font-size: 20px;
+}
+p.name-two{
+  font-size: 70px;
+  font-weight:900;
+  margin-top:-20px;
+}
+.right{
+  height: 500px;
+  flex-grow:1;
+  max-width:50%;
+  display:flex;
+  align-items:center;
+}
+.description{
+  margin-left: 20px;
+  margin-top: 30px;
+  line-height:30px;
+  font-size: 12px;
+  
+}
+
+.second{
+  height: 200px;
+  background:pink;
+  margin-top:30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.friedatheres.com/wp-content/uploads/2019/07/hochzeitsdeko-rosa-4.jpg.webp");
+  background-repeat:no-repeat;
+  background-size: cover;
+  color:white;
+}
+.second-title{
+  font-size:30px;
+  font-weight: 900;
+}
+.third{
+  margin-top:30px;
+  display: flex;
+  flax-wrap: wrap;
+  justify-content:space-around;
+}
+.type{
+  height:350px;
+  flex-grow: 1;
+  max-width: 250px;
+}
+.type:hover{
+  height: 200px;
+}
+.cover{
+  height: 70%;
+}
+.cover.one{
+  background-image: url("https://i.pinimg.com/564x/cb/33/f6/cb33f6b9d8d648a6cf1476a2222929d7.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.cover.two{
+  background-image: url("https://i.pinimg.com/564x/36/d3/45/36d345756939c2dffafd5fc50c2738bb.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.cover.three{
+  background-image: url("https://i.pinimg.com/564x/41/18/bd/4118bd734a93cbc787320730722c4760.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+.type-one{
+  text-align:center;
+  margin-top:20px;
+  font-size:15px;
+}
+
+.fourth{
+  display:flex;
+  flex-wrap:wrap;
+  margin-top: 50px;
+}
+.bal{
+  width: 50%;
+  display:flex;
+  justify-content: flex-end;
+  font-weight:900;
+}
+.jobb{
+  width: 50%;
+  display:flex;
+  justify-content: center;
+  font-weight:900;
+}
+.szaraz-leiras{
+  width: 100%;
+  margin-left: 20px;
+  line-height:30px;
+  font-size: 12px;
+  font-weight: 100px;
+}
+.cim.leftalign{
+  width: 100%;
+  margin-left: 20px;
+  line-height:30px;
+  font-size: 12px;
+  font-weight: 100px;
+  text-align:right;
+  
+}
+.szaraz-leiras.ketto{
+  font-size:20px;
+}
+div.footer{
+  border-top: 1px solid black;
+  height:200px;
+  margin-top:50px;
+}
+p.footerszoveg{
+  margin-top:20px;
+  font-size:12px;
+  text-align:center;
+}
+.kontakt{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  margin-top:30px;
+  font-size:12px;
+  
+}
+div.contact{
+  height: 30px;
+  width:150px;
+  text-align:center;
+}
